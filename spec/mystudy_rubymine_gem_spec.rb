@@ -6,6 +6,7 @@ RSpec.describe MystudyRubymineGem do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    result = MystudyRubymineGem.do_something
+    expect(result).to eq(expected_result)
   end
 end

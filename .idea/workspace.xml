@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mystudy_rubymine_gem.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mystudy_rubymine_gem/version.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mystudy_rubymine_gem.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sig/mystudy_rubymine_gem.rbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/mystudy_rubymine_gem_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_study_rspec" beforeDir="false" afterPath="$PROJECT_DIR$/../my_study_rspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/study_rubymine_gem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mystudy_rubymine_gem.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/mystudy_rubymine_gem.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/mystudy_rubymine_gem_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/mystudy_rubymine_gem_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +20,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Pjmaciel"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -61,12 +52,20 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5626d328-8d8d-4cb0-b05a-5444c06c6254" />
+        <option name="url" value="https://github.com/Pjmaciel/mystudy_rubymine_gem.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2cSS7VbvNJgYIMNVzej71lAfsVk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -82,6 +81,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ruby.structure.view.model.defaults.configured": "true",
     "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }

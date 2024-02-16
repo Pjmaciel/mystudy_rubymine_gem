@@ -8,17 +8,50 @@ Gem::Specification.new do |spec|
   spec.authors = ["Pjmaciel"]
   spec.email = ["pjmaciel_4@hotmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "A gem containing various algorithms and problems, including searching algorithms, sorting algorithms, and greedy algorithms."
+  spec.description = spec.description = <<-DESC
+    This gem provides a collection of algorithms and problems implemented in Ruby. It includes algorithms and problems from both Algoritmos 1 and Algoritmos 2 courses.
+
+    ## Algorithms
+    ### Searching Algorithms
+    - **Jump Search**: A basic searching algorithm.
+    - **Find Missing Number**: An algorithm to find a missing number in a sequence.
+    - **Fibonacci Search**: A searching algorithm based on the Fibonacci sequence.
+
+    ### Sorting Algorithms
+    - **Select Sort**: A basic sorting algorithm.
+    - **Merge Sort**: A medium difficulty sorting algorithm.
+    - **Quick Sort**: A medium difficulty sorting algorithm.
+
+    ### Greedy Algorithms
+    - **Minimum Sum**: A medium difficulty greedy algorithm.
+    - **Job Sequencing Problem**: A medium difficulty problem related to job sequencing.
+    - **Fractional Knapsack Problem**: A medium difficulty problem related to the knapsack problem.
+
+    ## Problems
+    ### String
+    - **Common Characters**: A medium difficulty problem related to finding common characters in strings.
+    - **Group Words**: A medium difficulty problem related to grouping words.
+
+    ### Array
+    - **Reorder Index**: A medium difficulty problem related to reordering indices.
+    - **Positive and Negative**: A medium difficulty problem related to positive and negative numbers.
+
+    ### Date
+    - **Sum Minute**: A medium difficulty problem related to summing minutes.
+    - **Day Week**: A difficult problem related to determining the day of the week.
+
+    For more information and examples, please visit the [GitHub repository](https://github.com/Pjmaciel/mystudy_rubymine_gem).
+  DESC
+  spec.homepage = "https://github.com/Pjmaciel/mystudy_rubymine_gem"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/Pjmaciel/mystudy_rubymine_gem"
+  spec.metadata["changelog_uri"] = "https://github.com/Pjmaciel/mystudy_rubymine_gem"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
