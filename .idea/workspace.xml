@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="build: structure of gem with Rubymine">
+    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.rspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mystudy_rubymine_gem.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mystudy_rubymine_gem/version.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mystudy_rubymine_gem.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sig/mystudy_rubymine_gem.rbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/mystudy_rubymine_gem_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_study_rspec" beforeDir="false" afterPath="$PROJECT_DIR$/../my_study_rspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/study_rubymine_gem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study_rubymine_gem/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,35 +95,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708025281765</updated>
-      <workItem from="1708103325277" duration="985000" />
+      <workItem from="1708103325277" duration="315000" />
     </task>
-    <task id="LOCAL-00001" summary="build: structure of gem with Rubymine">
-      <option name="closed" value="true" />
-      <created>1708103915222</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1708103915222</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="build: structure of gem with Rubymine" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: structure of gem with Rubymine" />
   </component>
 </project>
