@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="feat: add algorithm Binary Search">
+    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="style : change for real repository">
+      <change afterPath="$PROJECT_DIR$/lib/sorting_algorithms/bubble_sort.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/sorting_algorithms/bubble_sort_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_study_rspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +45,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feature/counting_sort" />
-                    <option name="lastUsedInstant" value="1708431660" />
+                    <option name="branchName" value="feature/searching_algorithms" />
+                    <option name="lastUsedInstant" value="1708350706" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="develop" />
@@ -100,7 +103,7 @@
     "RSpec.LinearSearch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "release/sorting__algorithms",
+    "git-widget-placeholder": "Merging feature/counting__sort",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -367,7 +370,11 @@
     <MESSAGE value="test: two tests when searching for an existing element and when searching for a non-existing element" />
     <MESSAGE value="test: add When non of a number and hen the input negative number" />
     <MESSAGE value="feat: add algorithm Binary Search" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add algorithm Binary Search" />
+    <MESSAGE value="test: when the correct list is placed,when the correct list is placed,when list contains non-numeric elements'" />
+    <MESSAGE value="test: when the correct list is placed,when the correct list is placed, when list contains non-numeric elements" />
+    <MESSAGE value="reactor : change for real repository" />
+    <MESSAGE value="style : change for real repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="style : change for real repository" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch.rcov" NAME="LinearSearch Coverage Results" MODIFIED="1708133328108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
