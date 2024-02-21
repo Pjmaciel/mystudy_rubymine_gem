@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="test: when the sentence is passed correctly',when the letters are in uppercase,when the sentence is empty" />
     <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="feat: Implement counting sort algorithm and related tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +41,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1708481132" />
+                    <option name="branchName" value="feature/searching_algorithms" />
+                    <option name="lastUsedInstant" value="1708350706" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="release/sorting_algorithms" />
-                    <option name="lastUsedInstant" value="1708367786" />
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1708134107" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -103,7 +104,7 @@
     "RSpec.LinearSearch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/counting__sort",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -337,7 +338,7 @@
     </task>
     <task id="LOCAL-00003" summary="test: when the number exists and when non exists in the list">
       <option name="closed" value="true" />
-      <created>1708367130696</created>
+      <created>1708433195292</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
