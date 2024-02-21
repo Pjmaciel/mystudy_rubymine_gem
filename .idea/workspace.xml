@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="test: when the sentence is passed correctly',when the letters are in uppercase,when the sentence is empty" />
+    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="refactor: workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +27,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -382,7 +381,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708480217187</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor: workspace.xml">
+      <option name="closed" value="true" />
+      <created>1708519697704</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708519697704</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +406,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -426,7 +433,8 @@
     <MESSAGE value="refactor: uptade logical for when is empty list test" />
     <MESSAGE value="feat: add Counting Sort algorithm" />
     <MESSAGE value="test: when the sentence is passed correctly',when the letters are in uppercase,when the sentence is empty" />
-    <option name="LAST_COMMIT_MESSAGE" value="test: when the sentence is passed correctly',when the letters are in uppercase,when the sentence is empty" />
+    <MESSAGE value="refactor: workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: workspace.xml" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch.rcov" NAME="LinearSearch Coverage Results" MODIFIED="1708133328108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
