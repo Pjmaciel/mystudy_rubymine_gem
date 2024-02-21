@@ -13,10 +13,9 @@ RSpec.describe 'BubbleSort' do
     end
   end
 
-  context 'when the correct list is placed ' do
+  context 'when is empty list' do
     it 'returns empty array' do
-      list = []
-      bubble_sort.sort(list)
+      expect(bubble_sort.sort('')).to eq([])
     end
   end
 
