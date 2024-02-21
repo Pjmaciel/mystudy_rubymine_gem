@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="style : change for real repository">
-      <change afterPath="$PROJECT_DIR$/lib/sorting_algorithms/bubble_sort.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/sorting_algorithms/bubble_sort_spec.rb" afterDir="false" />
+    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="style: change for real repository">
+      <change afterPath="$PROJECT_DIR$/lib/sorting_algorithms/counting_sort.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spec/sorting_algorithms/counting_sort_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../my_study_rspec" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/sorting_algorithms/bubble_sort_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/sorting_algorithms/bubble_sort_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +96,14 @@
     "DefaultRubyCreateTestTemplate": "RSpec",
     "RSpec.BinarySearch When number not exist.executor": "Run",
     "RSpec.BinarySearch when condition.executor": "Run",
+    "RSpec.CountingSort When the letters are in uppercase returns sorted letters and prints a success message.executor": "Run",
+    "RSpec.CountingSort When the letters are in uppercase.executor": "Run",
+    "RSpec.CountingSort when is empty list.executor": "Run",
+    "RSpec.CountingSort when the letters are in uppercase.executor": "Run",
+    "RSpec.CountingSort when the list is empty.executor": "Run",
+    "RSpec.CountingSort when the sentence is empty.executor": "Run",
+    "RSpec.CountingSort when the sentence is passed correctly.executor": "Run",
+    "RSpec.CountingSort.executor": "Run",
     "RSpec.LinearSearch When non of a number should returns false.executor": "Run",
     "RSpec.LinearSearch When the input negative number should .executor": "Run",
     "RSpec.LinearSearch when searching for a non-existing element returns false.executor": "Run",
@@ -103,7 +112,7 @@
     "RSpec.LinearSearch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging feature/counting__sort",
+    "git-widget-placeholder": "feature/counting__sort",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -114,8 +123,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="RSpec.BinarySearch">
-    <configuration name="BinarySearch When number not exist" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="RSpec.CountingSort when the sentence is empty">
+    <configuration name="CountingSort When the letters are in uppercase returns sorted letters and prints a success message" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -134,11 +143,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/searching_algorithms/binary_search_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/sorting_algorithms/counting_sort_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BinarySearch When number not exist" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CountingSort When the letters are in uppercase returns sorted letters and prints a success message" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -151,7 +160,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearch when condition" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingSort When the letters are in uppercase" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -170,11 +179,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/searching_algorithms/binary_search_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/sorting_algorithms/counting_sort_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BinarySearch when condition" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CountingSort When the letters are in uppercase" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -187,7 +196,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearch when the number exists in the list" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingSort when the letters are in uppercase" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -206,11 +215,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/searching_algorithms/binary_search_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/sorting_algorithms/counting_sort_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BinarySearch when the number exists in the list" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CountingSort when the letters are in uppercase" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -223,7 +232,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearch" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingSort when the sentence is empty" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -242,11 +251,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/searching_algorithms/binary_search_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/sorting_algorithms/counting_sort_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BinarySearch" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CountingSort when the sentence is empty" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -259,7 +268,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="LinearSearch" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="CountingSort" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -278,11 +287,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/searching_algorithms/linear_search_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/sorting_algorithms/counting_sort_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="LinearSearch" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CountingSort" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -297,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.BinarySearch" />
-        <item itemvalue="RSpec.BinarySearch when the number exists in the list" />
-        <item itemvalue="RSpec.BinarySearch When number not exist" />
-        <item itemvalue="RSpec.BinarySearch when condition" />
-        <item itemvalue="RSpec.LinearSearch" />
+        <item itemvalue="RSpec.CountingSort when the sentence is empty" />
+        <item itemvalue="RSpec.CountingSort when the letters are in uppercase" />
+        <item itemvalue="RSpec.CountingSort" />
+        <item itemvalue="RSpec.CountingSort When the letters are in uppercase returns sorted letters and prints a success message" />
+        <item itemvalue="RSpec.CountingSort When the letters are in uppercase" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708364517040</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="style: change for real repository">
+      <option name="closed" value="true" />
+      <created>1708433195292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708433195292</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,20 +391,29 @@
     <MESSAGE value="test: when the correct list is placed,when the correct list is placed, when list contains non-numeric elements" />
     <MESSAGE value="reactor : change for real repository" />
     <MESSAGE value="style : change for real repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="style : change for real repository" />
+    <MESSAGE value="style: change for real repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: change for real repository" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch.rcov" NAME="LinearSearch Coverage Results" MODIFIED="1708133328108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_is_empty_list.rcov" NAME="CountingSort when is empty list Coverage Results" MODIFIED="1708452998165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BubbleSort_When_list_is_empty_returns_empty_array.rcov" NAME="BubbleSort When list is empty returns empty array Coverage Results" MODIFIED="1708431014904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_When_the_letters_are_in_uppercase_returns_sorted_letters_and_prints_a_success_message.rcov" NAME="CountingSort When the letters are in uppercase returns sorted letters and prints a success message Coverage Results" MODIFIED="1708453692171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_When_the_input_negative_number_should_.rcov" NAME="LinearSearch When the input negative number should  Coverage Results" MODIFIED="1708133232776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BubbleSort_when_list_contains_non_numeric_elements.rcov" NAME="BubbleSort when list contains non-numeric elements Coverage Results" MODIFIED="1708431255903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort.rcov" NAME="CountingSort Coverage Results" MODIFIED="1708454053685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BubbleSort_when_the_correct_list_is_placed_.rcov" NAME="BubbleSort when the correct list is placed  Coverage Results" MODIFIED="1708430855559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_when_searching_for_an_existing_element.rcov" NAME="LinearSearch when searching for an existing element Coverage Results" MODIFIED="1708132810220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_when_searching_for_a_non_existing_element_returns_false.rcov" NAME="LinearSearch when searching for a non-existing element returns false Coverage Results" MODIFIED="1708110938451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_when_the_number_exists_in_the_list.rcov" NAME="BinarySearch when the number exists in the list Coverage Results" MODIFIED="1708367032640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_letters_are_in_uppercase.rcov" NAME="CountingSort when the letters are in uppercase Coverage Results" MODIFIED="1708473023872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_sentence_is_passed_correctly.rcov" NAME="CountingSort when the sentence is passed correctly Coverage Results" MODIFIED="1708451880404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_When_non_of_a_number_should_returns_false.rcov" NAME="LinearSearch When non of a number should returns false Coverage Results" MODIFIED="1708133120205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch.rcov" NAME="BinarySearch Coverage Results" MODIFIED="1708367048299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_When_number_not_exist.rcov" NAME="BinarySearch When number not exist Coverage Results" MODIFIED="1708365807529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_list_is_empty.rcov" NAME="CountingSort when the list is empty Coverage Results" MODIFIED="1708453183358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_When_the_letters_are_in_uppercase.rcov" NAME="CountingSort When the letters are in uppercase Coverage Results" MODIFIED="1708453666862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_sentence_is_empty.rcov" NAME="CountingSort when the sentence is empty Coverage Results" MODIFIED="1708474161156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_when_condition.rcov" NAME="BinarySearch when condition Coverage Results" MODIFIED="1708365684518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_when_searching_for_an_existing_element_returns_true.rcov" NAME="LinearSearch when searching for an existing element returns true Coverage Results" MODIFIED="1708132704819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
   </component>
