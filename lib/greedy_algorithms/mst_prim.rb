@@ -2,7 +2,7 @@ class MstPrim
   attr_accessor :adjacency_list
 
   def initialize(vertices)
-    @adjacency_list = vertices
+    @adjacency_list = {}  # Inicializa como um hash vazio
     vertices.each { |vertice| @adjacency_list[vertice] = [] }
   end
 
@@ -22,7 +22,7 @@ class MstPrim
     parent = {}
     key = {}
 
-    @vertices.each do |vertex|
+    @adjacency_list.keys.each do |vertex|
       visited[vertex] = false
       key[vertex] = Float::INFINITY
     end
@@ -30,7 +30,7 @@ class MstPrim
     key[start_vertex] = 0
     parent[start_vertex] = nil
 
-    @vertices.each do
+    @adjacency_list.keys.each do
       edge = min_key(key, visited)
       break if edge.nil?
 

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="refactor: workspace.xml">
-      <change afterPath="$PROJECT_DIR$/lib/greedy_algorithms/mst_prim.rb" afterDir="false" />
+    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="feat: add find minimum Spanning with PRIM algoritm">
+      <change afterPath="$PROJECT_DIR$/spec/greedy_algorithms/mst_prim_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/greedy_algorithms/mst_prim.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/greedy_algorithms/mst_prim.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="RSpec" />
         <option value="Ruby Class" />
+        <option value="RSpec" />
       </list>
     </option>
   </component>
@@ -91,72 +92,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultRubyCreateTestTemplate&quot;: &quot;RSpec&quot;,
-    &quot;RSpec.BinarySearch When number not exist.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.BinarySearch when condition.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.BinarySearch when the number exists in the list.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.BinarySearch.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.BubbleSort When list is empty returns empty array.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.BubbleSort when list contains non-numeric elements.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.BubbleSort when the correct list is placed .executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.LinearSearch When non of a number should returns false.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.LinearSearch When the input negative number should .executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.LinearSearch when searching for a non-existing element returns false.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.LinearSearch when searching for an existing element returns true.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.LinearSearch when searching for an existing element.executor&quot;: &quot;Run&quot;,
-    &quot;RSpec.LinearSearch.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/minimum__spanning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultRubyCreateTestTemplate": "RSpec",
+    "RSpec.BinarySearch When number not exist.executor": "Run",
+    "RSpec.BinarySearch when condition.executor": "Run",
+    "RSpec.BinarySearch when the number exists in the list.executor": "Run",
+    "RSpec.BinarySearch.executor": "Run",
+    "RSpec.BubbleSort When list is empty returns empty array.executor": "Run",
+    "RSpec.BubbleSort when list contains non-numeric elements.executor": "Run",
+    "RSpec.BubbleSort when the correct list is placed .executor": "Run",
+    "RSpec.LinearSearch When non of a number should returns false.executor": "Run",
+    "RSpec.LinearSearch When the input negative number should .executor": "Run",
+    "RSpec.LinearSearch when searching for a non-existing element returns false.executor": "Run",
+    "RSpec.LinearSearch when searching for an existing element returns true.executor": "Run",
+    "RSpec.LinearSearch when searching for an existing element.executor": "Run",
+    "RSpec.LinearSearch.executor": "Run",
+    "RSpec.MstPrim when the MST has adequate connectivity and minimum expected weight.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/minimum__spanning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="RSpec.BubbleSort when list contains non-numeric elements">
-    <configuration name="BinarySearch when the number exists in the list" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
-      <module name="mystudy_rubymine_gem" />
-      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/searching_algorithms/binary_search_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BinarySearch when the number exists in the list" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method v="2" />
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="RSpec.MstPrim when the MST has adequate connectivity and minimum expected weight">
     <configuration name="BinarySearch" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
@@ -301,13 +267,49 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="MstPrim when the MST has adequate connectivity and minimum expected weight" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="mystudy_rubymine_gem" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/greedy_algorithms/mst_prim_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MstPrim when the MST has adequate connectivity and minimum expected weight" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.MstPrim when the MST has adequate connectivity and minimum expected weight" />
         <item itemvalue="RSpec.BubbleSort when list contains non-numeric elements" />
         <item itemvalue="RSpec.BubbleSort When list is empty returns empty array" />
         <item itemvalue="RSpec.BubbleSort when the correct list is placed " />
         <item itemvalue="RSpec.BinarySearch" />
-        <item itemvalue="RSpec.BinarySearch when the number exists in the list" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +327,7 @@
       <workItem from="1708350010322" duration="10130000" />
       <workItem from="1708428182604" duration="2989000" />
       <workItem from="1708521370180" duration="109000" />
-      <workItem from="1708605645073" duration="10108000" />
+      <workItem from="1708605645073" duration="12042000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add algorithm linear_search">
       <option name="closed" value="true" />
@@ -359,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708521026713</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add find minimum Spanning with PRIM algoritm">
+      <option name="closed" value="true" />
+      <created>1708637485622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708637485624</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +410,8 @@
     <MESSAGE value="feat: add algorithm Binary Search" />
     <MESSAGE value="test: when the number exists and when non exists in the list" />
     <MESSAGE value="refactor: update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: update workspace.xml" />
+    <MESSAGE value="feat: add find minimum Spanning with PRIM algoritm" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add find minimum Spanning with PRIM algoritm" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch.rcov" NAME="LinearSearch Coverage Results" MODIFIED="1708133328108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
@@ -416,6 +427,7 @@
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_when_the_number_exists_in_the_list.rcov" NAME="BinarySearch when the number exists in the list Coverage Results" MODIFIED="1708367032640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_letters_are_in_uppercase.rcov" NAME="CountingSort when the letters are in uppercase Coverage Results" MODIFIED="1708473023872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_sentence_is_passed_correctly.rcov" NAME="CountingSort when the sentence is passed correctly Coverage Results" MODIFIED="1708451880404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@MstPrim_when_the_MST_has_adequate_connectivity_and_minimum_expected_weight.rcov" NAME="MstPrim when the MST has adequate connectivity and minimum expected weight Coverage Results" MODIFIED="1708638749272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_When_non_of_a_number_should_returns_false.rcov" NAME="LinearSearch When non of a number should returns false Coverage Results" MODIFIED="1708133120205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch.rcov" NAME="BinarySearch Coverage Results" MODIFIED="1708367048299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_When_number_not_exist.rcov" NAME="BinarySearch When number not exist Coverage Results" MODIFIED="1708365807529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
