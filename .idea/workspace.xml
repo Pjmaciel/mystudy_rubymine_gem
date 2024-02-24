@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="feat: when attempting to add an edge between vertices not present in the graph">
-      <change afterPath="$PROJECT_DIR$/lib/greedy_algorithms/mst_kruskal.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/greedy_algorithms/mst_kruskal_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="test: hen the graph has a single vertex,when the graph has multiple edges forming a cycle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,16 +39,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feature/minimum_spanning" />
-                    <option name="lastUsedInstant" value="1708522355" />
+                    <option name="branchName" value="develop" />
+                    <option name="lastUsedInstant" value="1708743686" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="release/greedy_algorithms" />
                     <option name="lastUsedInstant" value="1708521719" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1708520887" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -116,7 +108,7 @@
     "RSpec.MstPrim when the MST has adequate connectivity and minimum expected weight.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/minimum__spanning",
+    "git-widget-placeholder": "develop",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -333,7 +325,7 @@
       <workItem from="1708428182604" duration="2989000" />
       <workItem from="1708521370180" duration="109000" />
       <workItem from="1708605645073" duration="14178000" />
-      <workItem from="1708737438917" duration="6101000" />
+      <workItem from="1708737438917" duration="6492000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add algorithm linear_search">
       <option name="closed" value="true" />
@@ -383,7 +375,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708639560859</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: add find mst by kruskal">
+      <option name="closed" value="true" />
+      <created>1708743589524</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708743589524</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test: hen the graph has a single vertex,when the graph has multiple edges forming a cycle">
+      <option name="closed" value="true" />
+      <created>1708743646974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708743646974</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +434,9 @@
     <MESSAGE value="refactor: update workspace.xml" />
     <MESSAGE value="feat: add find minimum Spanning with PRIM algoritm" />
     <MESSAGE value="feat: when attempting to add an edge between vertices not present in the graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: when attempting to add an edge between vertices not present in the graph" />
+    <MESSAGE value="feat: add find mst by kruskal" />
+    <MESSAGE value="test: hen the graph has a single vertex,when the graph has multiple edges forming a cycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: hen the graph has a single vertex,when the graph has multiple edges forming a cycle" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_is_empty_list.rcov" NAME="CountingSort when is empty list Coverage Results" MODIFIED="1708452998165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
