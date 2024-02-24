@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="refactor: update workspace.xml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cde6da18-c2b0-4089-a7e2-529b64f5acb7" name="Changes" comment="test: hen the graph has a single vertex,when the graph has multiple edges forming a cycle" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +40,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="develop" />
-                    <option name="lastUsedInstant" value="1708520887" />
+                    <option name="lastUsedInstant" value="1708743686" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="release/greedy_algorithms" />
+                    <option name="lastUsedInstant" value="1708521719" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -98,6 +100,12 @@
     "RSpec.LinearSearch when searching for an existing element returns true.executor": "Run",
     "RSpec.LinearSearch when searching for an existing element.executor": "Run",
     "RSpec.LinearSearch.executor": "Run",
+    "RSpec.MstKruskal when condition succeeds.executor": "Run",
+    "RSpec.MstKruskal when condition.executor": "Run",
+    "RSpec.MstKruskal when the MST has adequate connectivity and minimum expected weight.executor": "Run",
+    "RSpec.MstKruskal.executor": "Run",
+    "RSpec.MstPrim when the MST has adequate connectivity and minimum expected weight when attempting to add an edge between vertices not present in the graph raises an ArgumentError .executor": "Run",
+    "RSpec.MstPrim when the MST has adequate connectivity and minimum expected weight.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop",
@@ -111,8 +119,8 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="RSpec.BubbleSort when list contains non-numeric elements">
-    <configuration name="BinarySearch when the number exists in the list" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="RSpec.MstKruskal">
+    <configuration name="MstKruskal when condition succeeds" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -131,11 +139,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/searching_algorithms/binary_search_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/greedy_algorithms/mst_kruskal_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BinarySearch when the number exists in the list" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MstKruskal when condition succeeds" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -148,7 +156,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearch" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="MstKruskal when condition" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -167,11 +175,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/searching_algorithms/binary_search_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/greedy_algorithms/mst_kruskal_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BinarySearch" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MstKruskal when condition" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -184,7 +192,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="BubbleSort When list is empty returns empty array" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="MstKruskal when the MST has adequate connectivity and minimum expected weight" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -203,11 +211,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/sorting_algorithms/bubble_sort_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/greedy_algorithms/mst_kruskal_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BubbleSort When list is empty returns empty array" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MstKruskal when the MST has adequate connectivity and minimum expected weight" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -220,7 +228,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="BubbleSort when list contains non-numeric elements" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="MstKruskal" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -239,11 +247,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/sorting_algorithms/bubble_sort_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/greedy_algorithms/mst_kruskal_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BubbleSort when list contains non-numeric elements" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MstKruskal" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -256,7 +264,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="BubbleSort when the correct list is placed " type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="MstPrim when the MST has adequate connectivity and minimum expected weight when attempting to add an edge between vertices not present in the graph raises an ArgumentError " type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="mystudy_rubymine_gem" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -275,11 +283,11 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/sorting_algorithms/bubble_sort_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/greedy_algorithms/mst_prim_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="BubbleSort when the correct list is placed " />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="MstPrim when the MST has adequate connectivity and minimum expected weight when attempting to add an edge between vertices not present in the graph raises an ArgumentError " />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_EXAMPLE_MATCHES" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="LINE_NUMBER_EXAMPLE_IDS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -294,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.BubbleSort when list contains non-numeric elements" />
-        <item itemvalue="RSpec.BubbleSort When list is empty returns empty array" />
-        <item itemvalue="RSpec.BubbleSort when the correct list is placed " />
-        <item itemvalue="RSpec.BinarySearch" />
-        <item itemvalue="RSpec.BinarySearch when the number exists in the list" />
+        <item itemvalue="RSpec.MstKruskal" />
+        <item itemvalue="RSpec.MstKruskal when the MST has adequate connectivity and minimum expected weight" />
+        <item itemvalue="RSpec.MstKruskal when condition" />
+        <item itemvalue="RSpec.MstKruskal when condition succeeds" />
+        <item itemvalue="RSpec.MstPrim when the MST has adequate connectivity and minimum expected weight when attempting to add an edge between vertices not present in the graph raises an ArgumentError " />
       </list>
     </recent_temporary>
   </component>
@@ -316,6 +324,8 @@
       <workItem from="1708350010322" duration="10130000" />
       <workItem from="1708428182604" duration="2989000" />
       <workItem from="1708521370180" duration="109000" />
+      <workItem from="1708605645073" duration="14178000" />
+      <workItem from="1708737438917" duration="6492000" />
     </task>
     <task id="LOCAL-00001" summary="feat: add algorithm linear_search">
       <option name="closed" value="true" />
@@ -349,7 +359,39 @@
       <option name="project" value="LOCAL" />
       <updated>1708521026713</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: add find minimum Spanning with PRIM algoritm">
+      <option name="closed" value="true" />
+      <created>1708637485622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708637485624</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: when attempting to add an edge between vertices not present in the graph">
+      <option name="closed" value="true" />
+      <created>1708639560858</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708639560859</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: add find mst by kruskal">
+      <option name="closed" value="true" />
+      <created>1708743589524</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708743589524</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test: hen the graph has a single vertex,when the graph has multiple edges forming a cycle">
+      <option name="closed" value="true" />
+      <created>1708743646974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708743646974</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,29 +432,39 @@
     <MESSAGE value="feat: add algorithm Binary Search" />
     <MESSAGE value="test: when the number exists and when non exists in the list" />
     <MESSAGE value="refactor: update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: update workspace.xml" />
+    <MESSAGE value="feat: add find minimum Spanning with PRIM algoritm" />
+    <MESSAGE value="feat: when attempting to add an edge between vertices not present in the graph" />
+    <MESSAGE value="feat: add find mst by kruskal" />
+    <MESSAGE value="test: hen the graph has a single vertex,when the graph has multiple edges forming a cycle" />
+    <option name="LAST_COMMIT_MESSAGE" value="test: hen the graph has a single vertex,when the graph has multiple edges forming a cycle" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch.rcov" NAME="LinearSearch Coverage Results" MODIFIED="1708133328108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_is_empty_list.rcov" NAME="CountingSort when is empty list Coverage Results" MODIFIED="1708452998165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BubbleSort_When_list_is_empty_returns_empty_array.rcov" NAME="BubbleSort When list is empty returns empty array Coverage Results" MODIFIED="1708431014904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_When_the_letters_are_in_uppercase_returns_sorted_letters_and_prints_a_success_message.rcov" NAME="CountingSort When the letters are in uppercase returns sorted letters and prints a success message Coverage Results" MODIFIED="1708453692171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_When_the_input_negative_number_should_.rcov" NAME="LinearSearch When the input negative number should  Coverage Results" MODIFIED="1708133232776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BubbleSort_when_list_contains_non_numeric_elements.rcov" NAME="BubbleSort when list contains non-numeric elements Coverage Results" MODIFIED="1708431255903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort.rcov" NAME="CountingSort Coverage Results" MODIFIED="1708454053685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BubbleSort_when_the_correct_list_is_placed_.rcov" NAME="BubbleSort when the correct list is placed  Coverage Results" MODIFIED="1708430855559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_when_searching_for_an_existing_element.rcov" NAME="LinearSearch when searching for an existing element Coverage Results" MODIFIED="1708132810220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_when_searching_for_a_non_existing_element_returns_false.rcov" NAME="LinearSearch when searching for a non-existing element returns false Coverage Results" MODIFIED="1708110938451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_when_the_number_exists_in_the_list.rcov" NAME="BinarySearch when the number exists in the list Coverage Results" MODIFIED="1708367032640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_letters_are_in_uppercase.rcov" NAME="CountingSort when the letters are in uppercase Coverage Results" MODIFIED="1708473023872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_sentence_is_passed_correctly.rcov" NAME="CountingSort when the sentence is passed correctly Coverage Results" MODIFIED="1708451880404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_When_non_of_a_number_should_returns_false.rcov" NAME="LinearSearch When non of a number should returns false Coverage Results" MODIFIED="1708133120205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch.rcov" NAME="BinarySearch Coverage Results" MODIFIED="1708367048299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_When_number_not_exist.rcov" NAME="BinarySearch When number not exist Coverage Results" MODIFIED="1708365807529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_list_is_empty.rcov" NAME="CountingSort when the list is empty Coverage Results" MODIFIED="1708453183358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_When_the_letters_are_in_uppercase.rcov" NAME="CountingSort When the letters are in uppercase Coverage Results" MODIFIED="1708453666862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_sentence_is_empty.rcov" NAME="CountingSort when the sentence is empty Coverage Results" MODIFIED="1708474161156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
-    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_when_condition.rcov" NAME="BinarySearch when condition Coverage Results" MODIFIED="1708365684518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_list_is_empty.rcov" NAME="CountingSort when the list is empty Coverage Results" MODIFIED="1708453183358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_When_number_not_exist.rcov" NAME="BinarySearch When number not exist Coverage Results" MODIFIED="1708365807529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
     <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_when_searching_for_an_existing_element_returns_true.rcov" NAME="LinearSearch when searching for an existing element returns true Coverage Results" MODIFIED="1708132704819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch.rcov" NAME="LinearSearch Coverage Results" MODIFIED="1708133328108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BubbleSort_When_list_is_empty_returns_empty_array.rcov" NAME="BubbleSort When list is empty returns empty array Coverage Results" MODIFIED="1708431014904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_When_the_letters_are_in_uppercase_returns_sorted_letters_and_prints_a_success_message.rcov" NAME="CountingSort When the letters are in uppercase returns sorted letters and prints a success message Coverage Results" MODIFIED="1708453692171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BubbleSort_when_list_contains_non_numeric_elements.rcov" NAME="BubbleSort when list contains non-numeric elements Coverage Results" MODIFIED="1708431255903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort.rcov" NAME="CountingSort Coverage Results" MODIFIED="1708454053685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@MstPrim_when_the_MST_has_adequate_connectivity_and_minimum_expected_weight_when_attempting_to_add_an_edge_between_vertices_not_present_in_the_graph_raises_an_ArgumentError_.rcov" NAME="MstPrim when the MST has adequate connectivity and minimum expected weight when attempting to add an edge between vertices not present in the graph raises an ArgumentError  Coverage Results" MODIFIED="1708639508372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_when_searching_for_a_non_existing_element_returns_false.rcov" NAME="LinearSearch when searching for a non-existing element returns false Coverage Results" MODIFIED="1708110938451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_sentence_is_passed_correctly.rcov" NAME="CountingSort when the sentence is passed correctly Coverage Results" MODIFIED="1708451880404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@MstPrim_when_the_MST_has_adequate_connectivity_and_minimum_expected_weight.rcov" NAME="MstPrim when the MST has adequate connectivity and minimum expected weight Coverage Results" MODIFIED="1708638749272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@LinearSearch_When_non_of_a_number_should_returns_false.rcov" NAME="LinearSearch When non of a number should returns false Coverage Results" MODIFIED="1708133120205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@MstKruskal_when_condition_succeeds.rcov" NAME="MstKruskal when condition succeeds Coverage Results" MODIFIED="1708741891884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@CountingSort_when_the_sentence_is_empty.rcov" NAME="CountingSort when the sentence is empty Coverage Results" MODIFIED="1708474161156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@MstKruskal_when_the_MST_has_adequate_connectivity_and_minimum_expected_weight.rcov" NAME="MstKruskal when the MST has adequate connectivity and minimum expected weight Coverage Results" MODIFIED="1708742745130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@BinarySearch_when_condition.rcov" NAME="BinarySearch when condition Coverage Results" MODIFIED="1708365684518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@MstKruskal.rcov" NAME="MstKruskal Coverage Results" MODIFIED="1708743413359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
+    <SUITE FILE_PATH="coverage/mystudy_rubymine_gem@MstKruskal_when_condition.rcov" NAME="MstKruskal when condition Coverage Results" MODIFIED="1708742017418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="mystudy_rubymine_gem" />
   </component>
 </project>
